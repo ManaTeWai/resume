@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: black;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.navig {
+    margin: 0 15%;
+}
+  
+.NavItems {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.steck, .about {
+    padding: 0 15%;
+}
+
+/* Страница с описанием */
+
+.fb {
+    margin: 2% 0;
+}
+
+.about__photo img {
+    height: 300px;
+    width: 270px;
+}
+
+.about__text__inner {
+    color: white;
+}
+
+/* блок карточек */
+
+.steck {
+    margin: 2% 0;
+}
+
+.steck_header {
+    color: white;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.steck_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: 2px solid white !important;
+    text-align: center;
+    height: 300px !important;
+    margin: auto;
+}
+
+.card_img {
+    width: 150px;
+    height: 150px;
+}
+
+.card_text {
+    color: white !important;
+}
+
+#wp-logo, #dr-logo {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+#re-logo {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    margin-top: -15%;
+    margin-bottom: -15%;
+}
+
+#dr-logo {
+    fill: #48a0dc;
+}
+
+.projects {
+    width: 100%;
+    padding: 2% 0;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.carousel img {
+    width: 100%;
+}
